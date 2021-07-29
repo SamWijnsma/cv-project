@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blueviolet;
+    height: 100px;
+}
+
+
+.content
+{
+    height: 500px;
+}
+footer {
+    background-color: chocolate;
+    bottom: 100px;
+}
