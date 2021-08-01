@@ -22,8 +22,6 @@
         <div>
             Diploma Behaald: <?= $education->is_completed ?>
         </div>
-
-        
         <?php endforeach; ?>
         
         

@@ -13,6 +13,8 @@ $router->get('educations', 'App/Http/Controllers/EducationController.php@index')
 $router->get('hobbies', 'App/Http/Controllers/HobbiesController.php@index');
 $router->get('jobs', 'App/Http/Controllers/JobController.php@index');
 $router->get('skills', 'App/Http/Controllers/SkillController.php@index');
+$router->get('all', 'App/Http/Controllers/AllController.php@index');
+
 
 $router->get('login', 'App/Http/Controllers/LoginController.php');
 $router->get('logout', 'App/Http/Controllers/LoginController.php@logout');
