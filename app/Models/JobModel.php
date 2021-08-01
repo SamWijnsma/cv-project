@@ -5,7 +5,7 @@ namespace App\Models;
 use App\Libraries\MySql;
 use PDO;
 
-class JobsModel extends Model
+class JobModel extends Model
 {
     // Name of the table
     protected static $table = "jobs";

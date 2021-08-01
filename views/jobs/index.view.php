@@ -7,21 +7,19 @@
         </div>
     </div>
 
-    <?php foreach($vars['educations'] as $education) : ?>
+    <?php foreach($vars['jobs'] as $job) : ?>
         <div class="row">
-            <div class="col-12"><?= $education->title ?></div>
+            <div class="col-12"><?= $job->description ?></div>
         <div> 
-            Instituut: <?= $education->institution ?> 
+            Werkgever: <?= $job->company ?> 
         </div>
         <div> 
-            Startdatum: <?= $education->started_at ?> 
+            Startdatum: <?= $job->started_at ?> 
         </div>
         <div>
-            Einddatum: <?= $education->finished_at ?>
+            Einddatum: <?= $job->stopped_at ?>
         </div>
-        <div>
-            Diploma Behaald: <?= $education->is_completed ?>
-        </div>
+        
 
         
         <?php endforeach; ?>
