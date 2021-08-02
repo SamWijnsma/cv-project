@@ -11,13 +11,13 @@
 <div> 
     Instituut: <?= $education->institution ?> 
  <div> 
-    Startdatum: <?= $education->started_at ?> 
+    Startdatum: <?= date('d-m-Y', strtotime($education->started_at)) ?>
 </div>
 <div>
-    Einddatum: <?= $education->finished_at ?>
+    Einddatum: <?= date('d-m-Y', strtotime($education->finished_at)) ?>
 </div>
 <div>
-    Diploma Behaald: <?= $education->is_completed ?>
+    Diploma Behaald: <?= $education->is_completed ? 'ja' : 'nee' ?>
 </div>
 <?php endforeach; ?>
 
